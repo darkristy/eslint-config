@@ -56,6 +56,9 @@
       "path": "cz-conventional-changelog"
     }
   },
+	"release": {
+    "branches": ["main", "next"]
+  },
 	"eslintConfig": {
 		"extends": ".",
 		"ignorePatterns": [
