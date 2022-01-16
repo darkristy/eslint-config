@@ -79,6 +79,7 @@ module.exports = {
      */
     "unicorn/no-for-loop": "off",
     "unicorn/no-nested-ternary": "off",
+		"unicorn/new-for-builtins": "off",
 
     /**
      * Too many false positives.
