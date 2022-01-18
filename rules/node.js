@@ -35,6 +35,7 @@ module.exports = {
 
     // https://github.com/mysticatea/eslint-plugin-node/blob/7dc8f80a5e/docs/rules/no-deprecated-api.md
     "node/no-deprecated-api": "error",
+
     "node/file-extension-in-import": "off",
     "node/prefer-global/buffer": ["error", "always"],
     "node/prefer-global/console": ["error", "always"],

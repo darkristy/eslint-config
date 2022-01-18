@@ -70,7 +70,7 @@ module.exports = {
         ignoreUsedVariables: true,
       },
     ],
-
+    "unicorn/filename-case": "off",
     /**
      * For-of + iterators currently requires transpilation:
      * https://www.typescriptlang.org/tsconfig#downlevelIteration
@@ -79,7 +79,7 @@ module.exports = {
      */
     "unicorn/no-for-loop": "off",
     "unicorn/no-nested-ternary": "off",
-		"unicorn/new-for-builtins": "off",
+    "unicorn/new-for-builtins": "off",
 
     /**
      * Too many false positives.
