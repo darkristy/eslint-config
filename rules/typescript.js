@@ -57,8 +57,9 @@ const config = hasTypeScript()
           // },
 
           rules: {
+						"@typescript-eslint/no-explicit-any": "off",
             "@typescript-eslint/no-unused-vars": [
-              "error",
+              "warn",
               {
                 ...baseVariables.rules["no-unused-vars"][1],
 
@@ -123,7 +124,7 @@ const config = hasTypeScript()
 
             // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-shadow.md
             "no-shadow": "off",
-            "@typescript-eslint/no-shadow": "error",
+            "@typescript-eslint/no-shadow": "warn",
           },
         },
       ],

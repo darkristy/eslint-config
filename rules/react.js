@@ -21,6 +21,7 @@ const config = {
         // https://eslint.org/docs/rules/jsx-quotes
         "jsx-quotes": ["error", "prefer-double"],
         "react/jsx-indent-props": ["error", 2],
+				"react/react-in-jsx-scope": "off",
       },
       overrides: [
         {

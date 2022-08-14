@@ -30,26 +30,8 @@ module.exports = {
     ],
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/898fcb4/docs/rules/prevent-abbreviations.md
-    "unicorn/prevent-abbreviations": [
-      "error",
-      {
-        // case insensitive and matches substrings
-        replacements: {
-          dev: false,
-          prop: false,
-          ref: false,
-          props: false,
-        },
-
-        // exact-match
-        allowList: {
-          // for-loop index
-          i: true,
-          j: true,
-        },
-      },
-    ],
-
+    "unicorn/prevent-abbreviations": "off",
+		
     "unicorn/prefer-object-from-entries": "off",
 
     "unicorn/prefer-node-protocol": "off",

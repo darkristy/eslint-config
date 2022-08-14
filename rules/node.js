@@ -47,5 +47,8 @@ module.exports = {
     "node/prefer-global/url": ["error", "always"],
     "node/prefer-promises/dns": "error",
     "node/prefer-promises/fs": "error",
+		"node/file-extension-in-import": "off",
+		"node/no-unpublished-import": "off",
+    "node/no-unpublished-require": "off",
   },
 };
