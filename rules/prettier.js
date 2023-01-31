@@ -6,7 +6,7 @@ module.exports = {
       {
         trailingComma: "es5",
         singleQuote: false,
-        printWidth: 110,
+        printWidth: 100,
         tabWidth: 2,
         useTabs: false,
         arrowParens: "always",
@@ -15,6 +15,7 @@ module.exports = {
         flattenTernaries: true,
         proseWrap: "never",
         htmlWhitespaceSensitivity: "ignore",
+        plugins: ["prettier-plugin-tailwindcss"],
       },
     ],
     "arrow-body-style": "off",
